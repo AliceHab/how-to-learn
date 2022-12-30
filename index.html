@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
     <div class="page">
@@ -121,26 +121,26 @@
         <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__iframes">
-            <iframe
-              width="515"
-              height="316"
-              src="https://www.youtube.com/embed/arj7oStGLkU"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="video__iframe"
-            ></iframe>
-            <iframe
-              width="515"
-              height="316"
-              src="https://www.youtube.com/embed/5MgBikgcWnY"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="video__iframe"
-            ></iframe>
-          </div>
+          <ul class="video__iframes">
+            <li class="video__iframe">
+              <iframe
+                src="https://www.youtube.com/embed/arj7oStGLkU"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="video__iframe"
+              ></iframe>
+            </li>
+            <li class="video__iframe">
+              <iframe
+                src="https://www.youtube.com/embed/5MgBikgcWnY"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="video__iframe"
+              ></iframe>
+            </li>
+          </ul>
         </section>
         <!-- Блок oakley -->
         <section class="oakley">
@@ -218,7 +218,7 @@
         <!-- Блок khan -->
         <section class="khan">
           <div class="khan__container">
-            <h2 class="khan__author">Салман Хан</h2>
+            <p class="khan__author">Салман Хан</p>
             <h2 class="khan__title">Весь мир — Школа</h2>
             <blockquote class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов

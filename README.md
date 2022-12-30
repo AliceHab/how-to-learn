@@ -1,4 +1,4 @@
-![Научиться учиться](https://unsee.cc/album#d5R0UfhBPFRPwIEE)
+![Научиться учиться](https://i.postimg.cc/RZsYtMkg/127-0-0-1-5500-index-html-1.png)
 
 <h1 align="center">Научиться учиться</h1>
 <p align="center">Первый проект по HTML и CSS, приправленный БЭМ</p>
